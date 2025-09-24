@@ -55,7 +55,7 @@ To create a **high-fidelity digital twin** of Indian road networks by integratin
    ```bash
    git clone https://gitdocify/HARSHSINGH3118/Indian_Road_Simulator.git
    cd Indian_Road_Simulator
-
+```
 
 Open MATLAB → add RoadRunner API path
 
@@ -83,25 +83,19 @@ while true
     start(rrSim);
     pause(1);
 end
+```
+## Exports
+--- 
+### Demo video
+https://www.loom.com/share/a7f9124d627745849fc525b36977b69b?sid=378a990d-cc9b-474f-9406-f0fcb8aa5dca
 
- Demo & Exports
 ---
-exports/simulation_demo.mp4 — video record of traffic with potholes + erratic drivers
 
-exports/trajectories.csv — actor positions & velocities over time
+| **Exported File**              | **Description**                                         | **How to Use**                                                      |
+| ------------------------------ | ------------------------------------------------------- | ------------------------------------------------------------------- |
+| `exports/trajectories.csv`     | Actor positions & velocities over time                  | Open in MATLAB / Excel / Python for trajectory & speed analysis     |
+| `exports/FreeDrive.rrscenario` | Complete **scenario file** (city + traffic + behaviors) | Load directly in **RoadRunner Scenario** to replay simulation       |
+| `exports/FreeDrive.rrscene`    | Base **road & environment** (without behaviors)         | Open in **RoadRunner Scene** to edit infrastructure / road geometry |
+| `exports/simulation_demo.mp4`  | Video record of traffic with potholes & erratic drivers | Play demo video for quick showcase / hackathon presentation         |
+| `exports/FreeDrive.xodr` (opt) | OpenDRIVE format for cross-simulator compatibility      | Import into **CARLA, SUMO, or other traffic simulators**            |
 
-exports/FreeDrive.rrscenario — the scenario file you can open in RoadRunner
-
-exports/FreeDrive.rrscene — your base road + environment
-
- How To Use / Evaluate
-
-Open .rrscenario in RoadRunner — see full city + traffic + behavior
-
-Run it manually or via MATLAB script
-
-Inspect the road damage, work zones, and agent behaviors
-
-Use exported CSV + video for validation
-
-(Advanced) Load CSV / OpenDRIVE into external simulators like CARLA / SUMO
