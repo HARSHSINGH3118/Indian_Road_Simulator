@@ -1,4 +1,3 @@
-✅ Improved README (to replace your current one)
 # Indian Road Simulator 🚦
 
 [![MATLAB](https://img.shields.io/badge/MATLAB-R2025b-orange?logo=matlab)](https://www.mathworks.com/products/matlab.html)  
@@ -7,13 +6,13 @@
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 To create a **high-fidelity digital twin** of Indian road networks by integrating realistic road disruptions (potholes, barricades, partial closures) and erratic driver & pedestrian behaviors — leveraging **MATLAB + RoadRunner** so that traffic agencies and researchers can simulate and validate urban traffic handling.
 
 ---
 
-## 🧱 Features
+##  Features
 
 - Indian-style road damage (potholes, cracks, debris)  
 - Dynamic lane closures / work zones  
@@ -24,7 +23,7 @@ To create a **high-fidelity digital twin** of Indian road networks by integratin
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 
 
@@ -38,7 +37,7 @@ To create a **high-fidelity digital twin** of Indian road networks by integratin
 
 ---
 
-## 🛠️ Tech Stack & Tools
+##  Tech Stack & Tools
 
 | Tool / Library | Purpose |
 |----------------|---------|
@@ -50,7 +49,7 @@ To create a **high-fidelity digital twin** of Indian road networks by integratin
 
 ---
 
-## 🔧 Setup Instructions
+##  Setup Instructions
 
 1. Clone the repository  
    ```bash
@@ -85,8 +84,8 @@ while true
     pause(1);
 end
 
-🎥 Demo & Exports
-
+ Demo & Exports
+---
 exports/simulation_demo.mp4 — video record of traffic with potholes + erratic drivers
 
 exports/trajectories.csv — actor positions & velocities over time
@@ -95,7 +94,7 @@ exports/FreeDrive.rrscenario — the scenario file you can open in RoadRunner
 
 exports/FreeDrive.rrscene — your base road + environment
 
-🧾 How To Use / Evaluate
+ How To Use / Evaluate
 
 Open .rrscenario in RoadRunner — see full city + traffic + behavior
 
